@@ -1,0 +1,74 @@
+html{
+    scroll-behavior: smooth;
+  }
+
+/* ******************************************** Contact Us ********************************************************************* */
+
+.contactform input
+{
+    margin-top: 60px;
+    border: none;
+    border-bottom: 2px solid black;
+    text-align: center;
+    
+}
+.contactheading h1
+{
+    text-align: center;
+    color:rgb(168, 164, 164);
+    margin-top: 30px;
+}
+
+
+/* *******************************************   PageNotFound ************************************************************ */
+
+.spinner
+{
+   display: flex;
+   justify-content: center;
+   margin-top: 200px;
+}
+.spinner1
+{
+   display: flex;
+   justify-content: center;
+   margin-top: 30px;
+}
+
+/* *********************************************** MyNavbar *************************************************************** */
+
+.navname :hover
+{
+   color: red;
+
+}
+
+/* *********************************************** Project ******************************************************************* */
+
+.projectimg
+{
+    height: 300px;
+
+}
+.projectimg:hover
+{
+    border: 2px solid gray;
+    box-sizing: border-box;
+    outline-offset: 2px solid gray;
+}
+
+.projectbtn
+{
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(to right, rgba(255,0,0,1),rgb(250, 247, 247));
+
+}
+.projectbtn:hover
+{
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+  
+}
+
+/* ******************************************************* Home **************************************************** */
+
