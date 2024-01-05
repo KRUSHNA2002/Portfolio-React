@@ -14,8 +14,7 @@ const About =()=>{
                    <div style={{padding:'40px'}}>
                       <h1>About me</h1>
                       <h3><span style={{color:'red'}}>Designer</span>& Devloper</h3>
-                      <p>Hello Everyone, My name is Krushna Waghumbare From Ahmednagar , Maharastra . I am currently studying in MCA from savitribai phule pune university . I also completed my full-stack web develoement course .</p>
-                      
+                      <p> I'm a creative thinker and problem solver. With a background in FullStack Web Developer , I thrive on exploring new ideas and finding innovative solutions. Whether it's writing, coding, or diving into new projects, I'm dedicated to continuous learning and making a positive impact."</p>
                       <h1 style={{fontFamily:'Kalam'}}>Skills :</h1>
                        <div className="row">
                        <div className='col-md-6 col-sm-6'>
