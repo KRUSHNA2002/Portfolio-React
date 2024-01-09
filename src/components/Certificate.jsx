@@ -7,16 +7,15 @@ const Certicate=()=>{
     return(
        <>
        
+         <div className="container ">
           <div className=' certificateheading'>
             <h1 className='text-center'>Certificates</h1>
           </div>
-         <div className="container certificate">
-
           <div className="row">
                 {
                   MyCertificate.map((val , i)=>{
                     return(
-                      <div className="col-md-4 my-3">
+                      <div className="col-md-4 my-3 certificate">
                             <Card style={{ width: '18rem' }}>
                               <Card.Img variant="top" src={val.cover} style={{height:"200px"}} />
                               <Card.Body>
