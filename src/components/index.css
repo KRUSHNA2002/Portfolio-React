@@ -88,3 +88,9 @@ NavLink
     color:rgb(168, 164, 164);
     margin-top: 30px;
 }
+.certificate
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -7,10 +7,11 @@ const Certicate=()=>{
     return(
        <>
        
-         <div className="container">
           <div className=' certificateheading'>
             <h1 className='text-center'>Certificates</h1>
           </div>
+         <div className="container certificate">
+
           <div className="row">
                 {
                   MyCertificate.map((val , i)=>{
