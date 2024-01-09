@@ -12,6 +12,7 @@ import Project from './components/Project';
 import Footer from './components/Footer';
 import Resume from './components/Resume';
 import PageNotFound from './components/PathNotFound';
+import Certicate from './components/Certificate';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
                   <Route path='/contact' element={<Contact/>}></Route>
                   <Route path='/Footer' element={<Footer/>}></Route>
                   <Route path='/resume' element={<Resume/>}></Route>
+                  <Route path='/certificate' element={<Certicate/>}></Route>
                   <Route path='*' element={<PageNotFound/>}></Route>
               </Routes>
          </Router>

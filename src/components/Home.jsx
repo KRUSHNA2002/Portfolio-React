@@ -1,4 +1,4 @@
-import React from 'react';
+// import React , {useState,useEffect} from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import dev1 from '../Images/dev1.jpg';
 import dev2 from '../Images/dev4.jpg';
@@ -9,8 +9,37 @@ import dev3 from '../Images/dev5.jpeg';
 import About from './About';
 import Project from './Project';
 import Contact from './Contact';
+import Certicate from './Certificate';
 
 const Home = () =>{
+
+    // const [count, setCount] = useState("Krushna Waghumbare");
+    // useEffect(() => {
+    //     const strarr = count.split("");
+        
+    //     let currentIndex = 0;
+    
+    //     const intervalId = setInterval(() => {
+    //       setCount(prevCount => {
+    //         // Update the state with the current character
+    //         const updatedCount = prevCount + strarr[currentIndex];
+    
+    //         // If the entire string is displayed, clear the interval
+    //         if (currentIndex === strarr.length - 1) {
+    //           clearInterval(intervalId);
+    //         }
+    
+    //         currentIndex++;
+    //         return updatedCount;
+    //       });
+    //     }, 5000);
+    
+    // })
+
+
+
+    
+
     return(
         <>
                <Carousel data-bs-theme="white" className='homeslide'>
@@ -22,8 +51,8 @@ const Home = () =>{
                         alt="First slide"
                         />
                         <Carousel.Caption>
-                        <h5 style={{fontSize:'40px',fontFamily:'bold'}}>Hello EveryOne</h5>
-                        <h4>I am Full-Stack Web Developer</h4>
+                        <h5 style={{fontSize:'40px',fontFamily:'bold'}}>Krushna Waghumbare</h5>
+                        <h4></h4>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
@@ -34,8 +63,8 @@ const Home = () =>{
                         alt="Second slide"
                         />
                         <Carousel.Caption>
-                        <h5 style={{fontSize:'40px',fontFamily:'bold'}}>Information</h5>
-                        <h4>My Name is Krushna Rajendra Waghumbare</h4>
+                        <h5 style={{fontSize:'40px',fontFamily:'bold'}}>Full-Stack Web Developer</h5>
+                        <h4></h4>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
@@ -46,9 +75,9 @@ const Home = () =>{
                         alt="Third slide"
                         />
                         <Carousel.Caption>
-                        <h5 style={{fontSize:'40px',fontFamily:'bold'}}>Qualification</h5>
+                        <h5 style={{fontSize:'40px',fontFamily:'bold'}}> Master of Computer Application</h5>
                         <h4>
-                            Now Currently studying in master of computer application from SPPU University
+                           
                         </h4>
                         </Carousel.Caption>
                     </Carousel.Item>
@@ -56,6 +85,7 @@ const Home = () =>{
 
                 <About/>
                 <Project/>
+                <Certicate/>
                 <Contact/>
         </>
     );
