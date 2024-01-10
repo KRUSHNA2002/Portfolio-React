@@ -1,8 +1,9 @@
 // import React , {useState,useEffect} from 'react';
-import Carousel from 'react-bootstrap/Carousel';
-import dev1 from '../Images/dev1.jpg';
-import dev2 from '../Images/dev4.jpg';
-import dev3 from '../Images/dev5.jpeg';
+// import Carousel from 'react-bootstrap/Carousel';
+// import dev1 from '../Images/dev1.jpg';
+// import dev2 from '../Images/dev4.jpg';
+// import dev3 from '../Images/dev5.jpeg';
+// import myphoto from '../Images/krushna.JPG'
 
 // component
 
@@ -10,6 +11,8 @@ import About from './About';
 import Project from './Project';
 import Contact from './Contact';
 import Certicate from './Certificate';
+import resume from './updated resume.pdf';
+
 
 const Home = () =>{
 
@@ -42,7 +45,7 @@ const Home = () =>{
 
     return(
         <>
-               <Carousel data-bs-theme="white" className='homeslide'>
+               {/* <Carousel data-bs-theme="white" className='homeslide'>
                     <Carousel.Item>
                         <img
                         className="d-block w-100 "
@@ -81,8 +84,25 @@ const Home = () =>{
                         </h4>
                         </Carousel.Caption>
                     </Carousel.Item>
-                </Carousel>
+                </Carousel> */}
 
+              <div className="container-fluid home-bg">
+                <div className="col-md-12 col-sm-12 inner-div"  >
+                     <div className='inner-bg '>
+                         <div className="row">
+                            <div className="col-md-6 col-sm-4 my-5 ">
+                                  <div style={{padding:'50px'}}>
+                                      <h1 className='' style={{color:'#f2e6eb'}}>I'am <span style={{color:'#f55877'}}>FullStack </span>Web Developer</h1>
+                                      <h4 className=' my-4' style={{color:'#f2e6eb'}}>Krushna <span style={{color:'#f55877'}}>Waghumbare</span></h4>
+                                      <div className='my-4'>
+                                         <button className='btn btn-warning ' style={{padding:'5px 25px 5px 25px '}}><a href={resume} style={{textDecoration:'none',color:'black'}}>About Info</a></button>
+                                      </div>
+                                  </div>
+                            </div>
+                         </div>
+                     </div>
+                </div>
+              </div>
                 <About/>
                 <Project/>
                 <Certicate/>

@@ -6,7 +6,7 @@ import ProgressBar from 'react-bootstrap/ProgressBar';
 const About =()=>{
     return(
         <>
-          <div className="container my-4">
+          <div className="container my-4" id='about'>
             <div className="row">
               <div className="col-md-5 col-sm-12">
                    <img src={mypic} alt="" style={{height:'500px',width:'100%',borderRadius:'30px'}} />
