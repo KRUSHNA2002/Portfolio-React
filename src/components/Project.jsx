@@ -19,7 +19,7 @@ const Project =()=>{
                         <Card.Img className='projectimg' variant="top" src={Myproject[i].cover} />
                         <Card.Body>
                           <Card.Title>{Myproject[i].name}</Card.Title>
-                          <Card.Text>
+                          <Card.Text style={{height:'120px'}}>
                            <p>{Myproject[i].desc}</p>
                           </Card.Text>
                           <a href={Myproject[i].link} target="_blank" className='projectbtn btn '>Live Demo</a>

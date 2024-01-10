@@ -23,7 +23,7 @@ const Certicate=()=>{
                                 <Card.Text style={{height:"100px"}} >
                                    {val.desc}
                                 </Card.Text>
-                                {/* <Button variant="primary">Go somewhere</Button> */}
+                                <Button variant="primary"  ><a href={val.link} target='_blank' style={{textDecoration:'none',color:'white'}}>View Certificate</a></Button>
                               </Card.Body>
                             </Card>
                       </div>
