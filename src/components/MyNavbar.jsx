@@ -19,7 +19,7 @@ const MyNavbar = () =>{
                <NavLink className='nav-link' style={{marginLeft:'15px'}} to='/project'><i className="fa-solid fa-file"></i>  Project</NavLink>
                <NavLink className='nav-link ' style={{marginLeft:'15px'}} to='/contact'><i className="fa-solid fa-phone"></i> Contact </NavLink>
                <NavLink className='nav-link ' style={{marginLeft:'15px'}} to='/certificate'><i className="fa-solid fa-phone"></i> Certificate </NavLink>
-               <a href={resume} className=' nav-link' style={{marginLeft:'15px'}} target='_blank'><i className='fa-solid fa-download'></i> Download Resume</a>
+               <a href={resume} className='  nav-link' style={{marginLeft:'15px'}} target='_blank'  rel="noreferrer"><i className='fa-solid fa-download'></i> Download Resume</a>
             </Nav>
           </Navbar.Collapse>
         </Container>
