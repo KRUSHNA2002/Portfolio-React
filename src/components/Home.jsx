@@ -11,7 +11,7 @@ import About from './About';
 import Project from './Project';
 import Contact from './Contact';
 import Certicate from './Certificate';
-import resume from './updated resume.pdf';
+import resume from './MyResume.pdf';
 
 
 const Home = () =>{
