@@ -80,16 +80,17 @@ NavLink
 .home-bg
 {
     /* width: 100vw; */
-   height: 80vh; 
-   background-image: url('../Images/dev1.jpg'); 
+   height: auto; 
+   /* background-image: url('../Images/dev1.jpg');  */
+   background-color: rgb(247, 246, 244);
    background-size: 100% 100%;
 }
 
 .inner-bg
 {
   width: 80vw;
-  height: 60vh;
-  box-shadow: 0px 0px 30px 10px rgb(161, 178, 194);
+  height: auto;
+  /* box-shadow: 0px 0px 30px 10px rgb(161, 178, 194); */
   margin-top: 60px;
 
 }
@@ -99,6 +100,7 @@ NavLink
   justify-content: center;
   align-items: center;
 }
+
 /* ******************************************************* Certificate ********************************************* */
 
 

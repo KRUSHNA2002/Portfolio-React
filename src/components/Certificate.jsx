@@ -15,7 +15,7 @@ const Certicate=()=>{
                 {
                   MyCertificate.map((val , i)=>{
                     return(
-                      <div className="col-md-4 my-3 certificate">
+                      <div key={i} className="col-md-4 my-3 certificate">
                             <Card style={{ width: '18rem' }}>
                               <Card.Img variant="top" src={val.cover} style={{height:"200px"}} />
                               <Card.Body>

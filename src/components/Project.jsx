@@ -22,7 +22,7 @@ const Project =()=>{
                           <Card.Text style={{height:'120px'}}>
                            <p>{Myproject[i].desc}</p>
                           </Card.Text>
-                                <a href={`${!val.link ? Myproject[i].livelink : Myproject[i].livelink}`} target="_blank" rel="noreferrer" className='projectbtn btn '>{val.btnname}</a>
+                                <a href={`${!val.link ? Myproject[i].link : Myproject[i].link}`} target="_blank" rel="noreferrer" className='projectbtn btn '>{val.btnname}</a>
                         </Card.Body>
                       </Card>
                       </div>
