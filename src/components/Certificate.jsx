@@ -10,7 +10,7 @@ const Certicate = () => {
     <>
 
       <div className="container ">
-        <div className=' certificateheading'>
+        <div className=' certificateheading mb-4'>
           <h1 className='text-center'>CERTIFICATES</h1>
         </div>
         <div className="row">

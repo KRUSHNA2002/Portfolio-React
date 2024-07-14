@@ -4,7 +4,8 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import './index.css'
 import { NavLink } from 'react-router-dom';
-import resume from './MyResume.pdf';
+// import resume from './MyResume.pdf';
+import checkresume from './CheckResume.pdf'
 
 const MyNavbar = () =>{
     return(
@@ -19,7 +20,7 @@ const MyNavbar = () =>{
                <NavLink className='nav-link fw-bold' style={{marginLeft:'15px'}} to='/project'><i className="fa-solid fa-file"></i>  Project</NavLink>
                <NavLink className='nav-link fw-bold ' style={{marginLeft:'15px'}} to='/contact'><i className="fa-solid fa-phone"></i> Contact </NavLink>
                <NavLink className='nav-link fw-bold ' style={{marginLeft:'15px'}} to='/certificate'><i className="fa-solid fa-phone"></i> Certificate </NavLink>
-               <a href={resume} className='  nav-link fw-bold' style={{marginLeft:'15px'}} target='_blank'  rel="noreferrer"><i className='fa-solid fa-download'></i> Download Resume</a>
+               <a href={checkresume} className='  nav-link fw-bold' style={{marginLeft:'15px'}} target='_blank'  rel="noreferrer"><i className='fa-solid fa-download'></i> Download Resume</a>
             </Nav>
           </Navbar.Collapse>
         </Container>

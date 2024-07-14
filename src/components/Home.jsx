@@ -9,7 +9,8 @@ import About from './About';
 import Project from './Project';
 import Contact from './Contact';
 import Certificate from './Certificate';
-import resume from './MyResume.pdf';
+// import resume from './MyResume.pdf';
+import checkresume from './CheckResume.pdf'
 
 const Home = () => {
     const [displayText, setDisplayText] = useState('');
@@ -44,8 +45,8 @@ const Home = () => {
                                     <h1 className='' style={{ color: 'black' }}>I am FullStack<span style={{ color: 'RGB(218 43 54)' }}>{displayText}</span></h1>
                                     <h4 className='my-4' style={{ color: 'black' }}>Krushna <span style={{ color: 'RGB(218 43 54)' }}>Waghumbare</span></h4>
                                     <div className='my-4'>
-                                        <button className='btn btn-warning' style={{ padding: '5px 25px' }}>
-                                            <a href={resume} style={{ textDecoration: 'none', color: 'black' }}>About Info</a>
+                                        <button className='btn btn-warning btncss' >
+                                            <a href={checkresume}  target='_blank' rel="noreferrer" style={{ textDecoration: 'none', color: 'black' }}>About Info</a>
                                         </button>
                                     </div>
                                 </div>

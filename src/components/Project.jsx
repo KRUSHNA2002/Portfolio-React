@@ -8,14 +8,15 @@ const Project = () => {
   return (
     <>
       <div className="container">
-        <div className=' d-flex justify-content-center text-secondary my-3'>
+        <div className=' d-flex justify-content-center text-dark my-3'>
           <h1>PROJECTS</h1>
         </div>
         <div className="row ">
           {
             Myproject.map((val, i) => {
               return (
-                <div className="projectimg1 col-md-4 col-sm-12 my-4 d-flex justify-content-center align-item-center" key={i}>
+                // <div className="projectimg1 col-md-4 col-sm-12 my-4 d-flex justify-content-center align-item-center" key={i}>
+                <div className="projectimg1 col-md-4 col-sm-12 my-4 d-flex justify-content-center " key={i}>
                   <Zoom  duration={1000} >
                     <Card style={{ width: '18rem' }}>
                       <Card.Img className='projectimg' variant="top" src={Myproject[i].cover} />
