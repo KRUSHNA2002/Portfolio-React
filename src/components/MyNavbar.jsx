@@ -14,12 +14,12 @@ const MyNavbar = () =>{
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto navname">
-               <NavLink className='nav-link' style={{marginLeft:'15px'}} to='/'><i className="fa-solid fa-house"></i>  Home</NavLink>
-               <NavLink className='nav-link ' style={{marginLeft:'15px'}} to='/about'><i className="fa-solid fa-address-book"></i>  About</NavLink>
-               <NavLink className='nav-link' style={{marginLeft:'15px'}} to='/project'><i className="fa-solid fa-file"></i>  Project</NavLink>
-               <NavLink className='nav-link ' style={{marginLeft:'15px'}} to='/contact'><i className="fa-solid fa-phone"></i> Contact </NavLink>
-               <NavLink className='nav-link ' style={{marginLeft:'15px'}} to='/certificate'><i className="fa-solid fa-phone"></i> Certificate </NavLink>
-               <a href={resume} className='  nav-link' style={{marginLeft:'15px'}} target='_blank'  rel="noreferrer"><i className='fa-solid fa-download'></i> Download Resume</a>
+               <NavLink className='nav-link fw-bold' style={{marginLeft:'15px'}} to='/'><i className="fa-solid fa-house"></i>  Home</NavLink>
+               <NavLink className='nav-link fw-bold ' style={{marginLeft:'15px'}} to='/about'><i className="fa-solid fa-address-book"></i>  About</NavLink>
+               <NavLink className='nav-link fw-bold' style={{marginLeft:'15px'}} to='/project'><i className="fa-solid fa-file"></i>  Project</NavLink>
+               <NavLink className='nav-link fw-bold ' style={{marginLeft:'15px'}} to='/contact'><i className="fa-solid fa-phone"></i> Contact </NavLink>
+               <NavLink className='nav-link fw-bold ' style={{marginLeft:'15px'}} to='/certificate'><i className="fa-solid fa-phone"></i> Certificate </NavLink>
+               <a href={resume} className='  nav-link fw-bold' style={{marginLeft:'15px'}} target='_blank'  rel="noreferrer"><i className='fa-solid fa-download'></i> Download Resume</a>
             </Nav>
           </Navbar.Collapse>
         </Container>

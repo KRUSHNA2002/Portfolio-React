@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import Carousel from 'react-bootstrap/Carousel';
-import dev1 from '../Images/dev1.jpg';
-import dev2 from '../Images/dev4.jpg';
-import dev3 from '../Images/dev5.jpeg';
-import myphoto from '../Images/krushna.JPG';
+import { Zoom } from "react-awesome-reveal";
+// import Carousel from 'react-bootstrap/Carousel';
+// import dev1 from '../Images/dev1.jpg';
+// import dev2 from '../Images/dev4.jpg';
+// import dev3 from '../Images/dev5.jpeg';
+// import myphoto from '../Images/krushna.JPG';
 import About from './About';
 import Project from './Project';
 import Contact from './Contact';
@@ -26,7 +27,7 @@ const Home = () => {
                 currentIndex++;
                 return newText;
             });
-        }, 1000);
+        },800);
 
         return () => clearInterval(intervalId);
     }, []);
@@ -37,6 +38,7 @@ const Home = () => {
                 <div className="col-md-12 col-sm-12 inner-div">
                     <div className='inner-bg '>
                         <div className="row">
+                            <Zoom  duration={2000}  > 
                             <div className="col-md-12 text-center col-sm-4 my-5">
                                 <div style={{ padding: '50px' }}>
                                     <h1 className='' style={{ color: 'black' }}>I am FullStack<span style={{ color: 'RGB(218 43 54)' }}>{displayText}</span></h1>
@@ -48,6 +50,7 @@ const Home = () => {
                                     </div>
                                 </div>
                             </div>
+                            </Zoom>
                         </div>
                     </div>
                 </div>
