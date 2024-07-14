@@ -17,7 +17,7 @@ const Certicate = () => {
           {
             MyCertificate.map((val, i) => {
               return (
-                <div key={i} className="col-md-4 my-3 certificate">
+                <div key={i} className=" col-lg-4 col-md-6 col-sm-12 my-3 certificate">
                   <Zoom duration={1000}  >
                     <Card style={{ width: '18rem' }}>
                       <Card.Img variant="top" src={val.cover} style={{ height: "200px" }} />
