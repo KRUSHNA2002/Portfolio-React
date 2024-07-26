@@ -6,6 +6,7 @@ import javascript from './Images/javascript.jpg';
 import html from './Images/html.jpg';
 import certificate1 from './Images/certificate  (1).jpg';
 import certificate2 from './Images/certificate  (2).jpg';
+import certificate3 from './Images/react certificate.png';
 import angular from './Images/angular.png';
 
 
@@ -13,6 +14,7 @@ const MyCertificate=[
 
     {cover:`${certificate1}` ,name:"BHARAT CERTIFICATE" ,link:'https://drive.google.com/file/d/1TXIW3XOdh_uBNA0xzN4HzvjxzSPigY81/view?usp=sharing',desc:"Bharat Internship Chronicles: Navigating the professional landscape with hands-on experience and dedication."},
     {cover:`${certificate2}` ,name:"BHARAT INTERN LETTER ",link:'https://drive.google.com/file/d/1nibDe04aZx7Kp5x6jVvJ42VJMkzOUC47/view?usp=sharing',desc:"Charting Success: Reflecting on a transformative internship at Bharat, where every challenge was an opportunity."},
+    {cover:`${certificate3}` ,name:"React Developer",link:'https://drive.google.com/file/d/1SqCP8btACnE2Ezr2Xmb4aJgVyPPxD6Co/view?usp=sharing',desc:"Certified Frontend Developer (React) by HackerRank, validating expertise in building dynamic and responsive web applications."},
     {cover:`${angular}` ,name:"Angular Developer",link:'https://drive.google.com/file/d/1Phz7NFFbuBAEEkUUf7SYf4Ckf8b7VY_j/view?usp=sharing',desc:"Validated skills in developing dynamic, responsive web applications using Angular."},
     {cover:`${bootstrap}` ,name:"BOOTSTRAP ",link:'https://drive.google.com/file/d/1AXKY_GeLorHE9lbHt62R95lk4sb0H59U/view?usp=sharing', desc:"Responsive Design Guru: A2Z Infotech PVT.LTD certification, marking a milestone in Bootstrap proficiency." },
     {cover:`${css}` ,name:"CSS" ,link:'https://drive.google.com/file/d/15-vFlxRU6TdVJgdAkWNarU6hAU0pI3xK/view?usp=sharing', desc:"Style Architect: A2Z Infotech PVT.LTD certification, showcasing proficiency in CSS and creative design."},
