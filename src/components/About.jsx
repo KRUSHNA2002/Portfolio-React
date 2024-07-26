@@ -1,6 +1,7 @@
 import React from 'react';
 // import mypic from '../Images/mypic.JPG';
-import myphoto from '../Images/myphoto.jpg'
+// import myphoto from '../Images/myphoto.jpg'
+import myphoto from '../Images/document photo1.jpg'
 import ProgressBar from 'react-bootstrap/ProgressBar';
 import { Slide } from "react-awesome-reveal";
 
