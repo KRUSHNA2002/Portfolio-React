@@ -10,7 +10,7 @@ import Project from './Project';
 import Contact from './Contact';
 import Certificate from './Certificate';
 // import resume from './MyResume.pdf';
-import checkresume from './CheckResume1.pdf'
+import checkresume from '../components/CheckResume1.pdf'
 
 const Home = () => {
     const [displayText, setDisplayText] = useState('');

@@ -5,7 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import './index.css'
 import { NavLink } from 'react-router-dom';
 // import resume from './MyResume.pdf';
-import checkresume from './CheckResume1.pdf'
+import checkresume from '../components/CheckResume1.pdf'
 
 const MyNavbar = () =>{
     return(
