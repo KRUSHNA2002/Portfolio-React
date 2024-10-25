@@ -10,7 +10,8 @@ import Project from './Project';
 import Contact from './Contact';
 import Certificate from './Certificate';
 // import resume from './MyResume.pdf';
-import checkresume from '../components/CheckResume1.pdf'
+// import checkresume from '../components/krushnawaghumbare.pdf'
+import checkresume1 from '../components/krushnawaghumbare.pdf';
 
 const Home = () => {
     const [displayText, setDisplayText] = useState('');
@@ -46,7 +47,7 @@ const Home = () => {
                                     <h4 className='my-4' style={{ color: 'black' }}>Krushna <span style={{ color: 'RGB(218 43 54)' }}>Waghumbare</span></h4>
                                     <div className='my-4'>
                                         <button className='btn btn-warning btncss' >
-                                            <a href={checkresume}  target='_blank' rel="noreferrer" style={{ textDecoration: 'none', color: 'black' }}>About Info</a>
+                                            <a href={checkresume1}  target='_blank' rel="noreferrer" style={{ textDecoration: 'none', color: 'black' }}>About Info</a>
                                         </button>
                                     </div>
                                 </div>

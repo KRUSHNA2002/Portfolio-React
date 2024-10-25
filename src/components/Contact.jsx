@@ -16,7 +16,7 @@ const Contact = () => {
                 <div className="row">
                     <div className="col-md-6 col-sm-12 my-5 ">
                         <Slide direction='left' duration={1000} >
-                        <iframe title="Unique Title" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15137.97879646537!2d73.836065!3d18.461238!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2eebbb3b91ba9%3A0xdeaf2e5b2b8e3bb!2sSinhgad%20Law%20College!5e0!3m2!1sen!2sin!4v1704866135374!5m2!1sen!2sin" width="100%" height="450"  loading="lazy" ></iframe>
+                        <iframe title="Unique Title" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2360.588573797173!2d74.01790624209553!3d18.574380115791968!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c300317ee4ff%3A0xdd13543dbfcaeb9b!2sTRONSoftech%20Pvt.%20Ltd.!5e0!3m2!1sen!2sin!4v1729849394928!5m2!1sen!2sin" width="100%" height="450"  loading="lazy" ></iframe>
                         </Slide>
                     </div>
                     <div className="col-md-6 col-sm-12 my-3">
